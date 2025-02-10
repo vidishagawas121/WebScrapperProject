@@ -35,6 +35,6 @@ for price in prices:
     data["price"].append(price.text)
 
 df= pd.DataFrame.from_dict(data)
-df.to_csv("data.csv", index=False)
+df.to_csv("data1.csv", index=False)
 
 driver.quit()
